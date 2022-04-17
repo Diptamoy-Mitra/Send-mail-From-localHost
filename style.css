@@ -1,0 +1,46 @@
+/*custom css styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2&family=Baloo+Thambi+2&family=Bree+Serif&family=Josefin+Sans:wght@100&family=Quintessential&family=Roboto:wght@100&display=swap');
+html,
+body {
+    background-color: #007bff;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .mail-form {
+    background: #fff;
+    padding: 25px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+}
+
+.container .mail-form .form-control {
+    height: 43px;
+    font-size: 15px;
+}
+
+.container .mail-form .textarea {
+    height: 100px;
+    resize: none;
+}
+
+.container .mail-form form .button {
+    font-size: 17px!important;
+}
+
+.container .mail-form h2 {
+    font-size: 30px;
+    /* font-weight: 600; */
+}
+
+.container .mail-form p {
+    font-size: 14px;
+    /* font-weight: 600; */
+}
